@@ -5,23 +5,23 @@ import { RouterLink, RouterView} from 'vue-router'
 <template>
   <header>
   <nav
-    class="text-xs font-semibold relative flex w-full items-center justify-between bg-white py-0 text-black hover:text-black-800 focus:text-black :text-black md:flex-wrap md:justify-start"
+    class="text-xs font-semibold relative flex w-full items-center justify-between bg-white text-black hover:text-black-800 focus:text-black :text-black flex-wrap justify-start"
     data-te-navbar-ref>
-    <div class="flex w-full flex-wrap items-center justify-between px-10">
+    <div class="px-4 lg:px-10 flex w-full flex-wrap items-center justify-between">
       <div
-        class="!visible hidden grow basis-[100%] items-center space-x-5 sm:!flex md:!flex lg:!flex"
+        class="items-center space-x-5 flex pr-0 m-0 md:!flex lg:!flex"
         id="navbarSupportedContentX"
         data-te-collapse-item>
         <RouterLink to="/">
         <img alt="Vue logo" class="logo" src="./assets/logo_done.png" width="60" height="60" />
         </RouterLink>
         <ul
-          class="mr-auto flex flex-col sm:flex-row md:flex-row lg:flex-row"
+          class="mr-auto flex flex-row sm:flex-row"
           data-te-navbar-nav-ref>
           <RouterLink to="/about">
           <li data-te-nav-item-ref>
             <a
-              class="font-sans font-semibold ml-10 block transition duration-150 ease-in-out hover:text-black focus:text-neutral-700 disabled:text-black/30 dark:hover:text-grey dark:focus:text-black lg:p-2 [&.active]:text-black/90 link link-underline link-underline-black" 
+              class="font-sans font-semibold ml-4 lg:ml-6 block transition duration-150 ease-in-out hover:text-black focus:text-neutral-700 disabled:text-black/30 dark:hover:text-grey dark:focus:text-black lg:p-2 [&.active]:text-black/90 link link-underline link-underline-black" 
               data-te-nav-link-ref
               data-te-ripple-init
               data-te-ripple-color="light"
@@ -32,7 +32,7 @@ import { RouterLink, RouterView} from 'vue-router'
           <RouterLink to="/Kontakt">
           <li data-te-nav-item-ref>
             <span
-              class="font-sans font-semibold ml-6 block transition duration-150 ease-in-out hover:text-black focus:text-neutral-700 disabled:text-black/30 dark:hover:text-grey dark:focus:text-black lg:p-2 [&.active]:text-black/90 link link-underline link-underline-black"
+              class="font-sans font-semibold ml-4 lg:ml-6 block transition duration-150 ease-in-out hover:text-black focus:text-neutral-700 disabled:text-black/30 dark:hover:text-grey dark:focus:text-black lg:p-2 [&.active]:text-black/90 link link-underline link-underline-black"
               data-te-nav-link-ref
               data-te-ripple-init
               data-te-ripple-color="light"
@@ -42,7 +42,7 @@ import { RouterLink, RouterView} from 'vue-router'
           </RouterLink>
           <li data-te-nav-item-ref>
             <a
-              class="font-sans font-semibold ml-6 block transition duration-150 ease-in-out hover:text-black focus:text-neutral-700 disabled:text-black/30 dark:hover:text-grey dark:focus:text-black lg:p-2 [&.active]:text-black/90 link link-underline link-underline-black"
+              class="font-sans font-semibold ml-4 lg:ml-6 block transition duration-150 ease-in-out hover:text-black focus:text-neutral-700 disabled:text-black/30 dark:hover:text-grey dark:focus:text-black lg:p-2 [&.active]:text-black/90 link link-underline link-underline-black"
               href="/#port"
               data-te-nav-link-ref
               data-te-ripple-init
@@ -53,7 +53,7 @@ import { RouterLink, RouterView} from 'vue-router'
           <a href="https://www.linkedin.com/in/kristinapagaardhansen/">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-3 w-3 mt-5 mr-14 absolute top-0 right-0"
+            class="h-3 w-3 lg:h-3 lg:w-3 mt-5 mr-6 lg:mr-14 absolute top-0 right-0"
             fill="currentColor"
             viewBox="0 0 24 24">
             <path

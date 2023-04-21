@@ -1,5 +1,5 @@
 <template>
-<div id="port" class="flex justify-center p-10">
+<div id="port" class="flex justify-center p-10 flex-col md:flex-row lg:flex-row">
   <div
     class="block max-w-sm bg-white white:bg-neutral-700 m-4">
     <a href="#!" data-te-ripple-init data-te-ripple-color="light">
@@ -10,11 +10,11 @@
     </a>
     <div class="p-6">
       <h5
-        class="text-center mb-2 text-lg font-medium leading-tight text-neutral-800 black:text-neutral-50 sm:">
+        class="text-center mb-2 text-lg font-medium leading-tight text-neutral-800 black:text-neutral-50:">
         PORTRÆT
       </h5>
       <div class="flex justify-center pt-3">
-        <button class="bg-transparent hover:bg-black text-black font-normal hover:text-white py-2 px-4 border border-black hover:border-transparent">
+        <button class="bg-transparent hover:bg-black text-black font-normal hover:text-white py-2 px-4 border border-black hover:border-transparent sm:py-2">
           <RouterLink to="/Portrait">SE MERE</RouterLink>
         </button>
       </div>
